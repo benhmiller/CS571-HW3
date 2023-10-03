@@ -83,13 +83,32 @@ Here, you will apply your knowledge of visual design to Badger Bakery. If a resp
 
 1. Using your knowledge of visual design, improve your Badger Bakery interface. **This means changing your React code.** Following, describe at least 3 different design elements *or* principles that you used in your improved design. Add annotated screenshot(s) of the interface to show these design elements *or* principles.
 
-INSERT YOUR RESPONSE AND SCREENSHOTS HERE.
+    In an effort to improve the Badger Bakery interface, I first leveraged the design principle of `contrast` to create a distinct header section. The section features a captivating background image of a bakery, creating a stark juxtaposition against the white background employed by the remainder of the page.
+    ![Bakery image vs. white background](_figures/badger-bakery-1.png)
 
+    Next, employing the element of `size`, I decided to greatly increase the font size of the business, Badger Bakery, in the header of the interface. By doing so, I hoped site visitors would immediately recognize and focus on the brand identity.
+    ![Badger Bakery Header](_figures/badger-bakery-2.png)  
+
+    Finally, attempting to apply the element of `texture` to the site, I swapped the standard HTML default button with the Button component provided through `react-bootstrap`. This design decision imparts a number of interactive features on the `+` and `-` buttons, such as:
+    changing color when hovered over, a darkening of color when clicked, and a smooth transtion of color when changing from disabled to active (and vice versa).
+    ![Badger Bakery Header](_figures/badger-bakery-3.png)  
 
 2. In design question 1, you were likely limited by your knowledge of React in what changes you could make. Now, think bigger. Use a hand-drawn or digital sketch to demonstrate an improved interface. Describe **3 elements and 3 principles**. You can re-use elements or principles from design question 1 as long as they are applied in a new way.
 
-INSERT YOUR RESPONSE AND SKETCH HERE.
-
+    When designing my sketch of the revised Badger Bakery, I sought to leverage the design principles of `movement` and `focal point` as well as the design element of `value`.
+    ![Badger Bakery Header](_figures/badger-bakery-4.png)  
+    1) Movement
+    ```
+    Attained through a carousel of bakery images in the header and button to explore more baked goods.
+    ```
+    2) Focal Point
+    ```
+    Utilized with the featured item section where an image of the highlighted good stands out from the surrounding page
+    ```
+    3) Value
+    ```
+    Employed through a fading header when you scroll; other additions could include the text of a baked good card darkening when hovered over with the mouse.
+    ```
 ## Done! 🥳
 
 **Be sure that you have completed BOTH the React and Visual Design portions of this assignment.**
