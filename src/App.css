@@ -40,3 +40,86 @@
 .read-the-docs {
   color: #888;
 }
+/* Change Background Color of Page */
+
+
+/* Header Image Section */
+.header-background-image {
+  position: relative;
+  background-image: url('_figures/badger-bakery-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white; /* Set the default text color */
+  height: 300px; /* Set the height to cover the viewport height */
+  width: 200%;
+  top: -12%;
+  left: -50%;
+  z-index: 0; /* Ensure the background image is at the back */
+}
+
+.header-background-image::before {
+  content: '';
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity here (0.5 for 50% opacity) */
+  height: 300px; /* Set the height to cover the viewport height */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Place the pseudo-element below the background image */
+}
+
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-overlay h1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4.5rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.text-overlay p {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: oblique;
+  margin-bottom: 20px;
+}
+
+/* Update Baked Goods Section Relative to Image */
+/* Add margin to baked goods section to position it below the header image */
+.baked-goods-section {
+  position: relative; /* Adjust this value to match the height of the header image */
+  
+}
+
+/* Styling for BakedGood Component */
+.BakedGood {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border: 3px solid lightgrey;
+  border-radius: 10px;
+  padding: 20px; /* Padding for better appearance */
+  width: auto;
+  height: 310px;
+  margin: 10px;
+}
+
+.BakedGood.featured {
+  font-style: italic;
+  background-color: rgb(212, 189, 146);
+  color: white;
+}
+
+/* Change Button Styling */
+.disabled-button {
+  background-color: lightgray !important; /* Set the light gray color */
+  border-color: lightgray !important; /* Set the border color to match */
+  color: white !important; /* Set the text color */
+}
