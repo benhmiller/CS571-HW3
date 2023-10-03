@@ -95,19 +95,35 @@ Here, you will apply your knowledge of visual design to Badger Bakery. If a resp
 
 2. In design question 1, you were likely limited by your knowledge of React in what changes you could make. Now, think bigger. Use a hand-drawn or digital sketch to demonstrate an improved interface. Describe **3 elements and 3 principles**. You can re-use elements or principles from design question 1 as long as they are applied in a new way.
 
-    When designing my sketch of the revised Badger Bakery, I sought to leverage the design principles of `movement` and `focal point` as well as the design element of `value`.
+    When designing my sketch of the revised Badger Bakery, I sought to leverage the design principles of `movement`, `focal point`, and `balance` as well as the design elements of `value`, `shape` and `texture`.
     ![Badger Bakery Header](_figures/badger-bakery-4.png)  
+    
+    Design Principles:
     1) Movement
     ```
-    Attained through a carousel of bakery images in the header and button to explore more baked goods.
+    Attained through a carousel of bakery images in the header.
     ```
     2) Focal Point
     ```
-    Utilized with the featured item section where an image of the highlighted good stands out from the surrounding page
+    Utilized with the featured item section where an image of the highlighted good stands out from the surrounding page.
     ```
-    3) Value
+    3) Balance
+    ```
+    Divided the page into more distinct sections (i.e. header, featured, items, more baked goods) to create a greater sense of visual balance.
+    ```
+    
+    Design Elements:
+    1) Value
     ```
     Employed through a fading header when you scroll; other additions could include the text of a baked good card darkening when hovered over with the mouse.
+    ```
+    2) Shape
+    ```
+    Observed in the new button to explore more baked goods.
+    ```
+    3) Texture
+    ```
+    By adding an image of the baked good, the various hues and tones contribute to the visual texture of the page.
     ```
 ## Done! 🥳
 
